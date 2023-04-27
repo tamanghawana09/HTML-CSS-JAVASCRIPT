@@ -1,0 +1,29 @@
+h1{
+    color:blue;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.external{
+    color:green;
+    font-weight: bold;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+.container{
+    margin:0;
+    background-color: #f2f2f2;
+    max-width: 1000px;
+}
