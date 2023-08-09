@@ -1,4 +1,6 @@
 table, th,td{
     background-color: beige;
     border: 1px solid black;
+    size: 10%;
+    padding: 20px;
 }
