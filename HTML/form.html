@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            color: white;
+            display: inline;
+            font-size: 20px;
+        }
+        form{
+            background-color: black;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        input{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+    <form action="/action_page.php">
+        <!-- text input -->
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>
+    <form>
+        <!-- radio box input -->
+        <p style="color:aliceblue; font-size:20px;">Choose your preferred course to study in nepal</p>
+        <input type="radio" name="select" id="bit" value="BIT">
+        <label for="bit">BIT</label><br>
+        <input type="radio" name="select" id="bba" value="BIT">
+        <label for="bba">BBA</label><br>
+        <input type="radio" name="select" id="bim" value="BIM">
+        <label for="bim">BIM</label>br
+    </form>
+    <br>
+    <form>
+        <!-- checkbox input -->
+        <p style="color:white;font-size:20px;">Choose your faculty</p>
+        <input type="checkbox" name="check" id="1" value="Science and Technology">
+        <label for="1">Science and Technology</label><br>
+        <input type="checkbox" name="check" id="2" value="Faculty of Management">
+        <label for="2">Faculty of Management</label><br>
+        <input type="checkbox" name="check" id="3" value="Faculty of Law">
+        <label for="3">Faculty of Law</label>
+    </form>
+    <br>
+    <form>
+        <!-- button -->
+        <input type="button" name="btn" id="btn">
+        <label for="btn">Click the button</label>
+    </form>
+</body>
+</html>
