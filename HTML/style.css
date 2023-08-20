@@ -1,0 +1,14 @@
+.box{
+    background-color: lightblue;
+    width: 300px;
+    border: 15px solid green;
+    padding:50px;
+    margin: 20px; 
+}
+.box2{
+    border: 15px solid red;
+    background-color: beige;
+    width: 500px;
+    padding: 50px 40px 50px 60px;
+    margin: 100px 100px 100px 100px;
+}
