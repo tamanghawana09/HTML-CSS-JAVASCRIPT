@@ -1,0 +1,30 @@
+body{
+    background-color: beige;
+}
+h1{
+    text-align: center;
+}
+.slider{
+    height: 500px;
+    width: 500px;
+    background-image: url(https://images.pexels.com/photos/9444052/pexels-photo-9444052.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+    position: absolute;
+    transform: translate(120%);
+    box-sizing: border-box;
+    box-shadow: 4px 4px 20px 20px black;
+    animation: slide 20s infinite linear;
+}
+@keyframes slide {
+    0%{
+        background-image: url(https://images.pexels.com/photos/9444052/pexels-photo-9444052.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+    }
+    25%{
+        background-image: url(https://images.pexels.com/photos/17070405/pexels-photo-17070405/free-photo-of-exterior-of-the-city-palace.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+    }
+    50%{
+        background-image: url(https://images.pexels.com/photos/14339802/pexels-photo-14339802.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+    }
+    75%{
+        background-image: url(https://images.pexels.com/photos/16840671/pexels-photo-16840671/free-photo-of-man-pointing-on-rocky-peninsula.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load);
+    }
+}
