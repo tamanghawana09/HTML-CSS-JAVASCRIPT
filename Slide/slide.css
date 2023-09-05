@@ -1,0 +1,48 @@
+body{
+    background-color:blanchedalmond;
+    display: grid;
+    
+}
+.container{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+.Slide-container{
+    display: flex;
+    width: 500px;
+    animation: slide 10s infinite linear;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translate(-100%);
+    }
+}
+.image1{
+    padding: 20px;
+    perspective: 150px;
+}
+.image2{
+    padding: 20px;
+    perspective: 150px;
+}
+.image3{
+    padding: 20px;
+    perspective: 150px;
+}
+.image4{
+    padding: 20px;
+    perspective: 150px;
+}
+img{
+    width: 500px;
+   transition: transform 1s;
+}
+img:hover{
+    transform: translateZ(20px);
+}
